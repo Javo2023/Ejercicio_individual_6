@@ -13,7 +13,7 @@
         android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Nombre"
+        android:hint="@string/nombre"
         android:textColorHint="#777373"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -30,10 +30,11 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Apellidos"
+        android:hint="@string/apellidos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textName" />
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/textPass"
@@ -45,7 +46,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Password"
+        android:hint="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +62,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Email"
+        android:hint="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

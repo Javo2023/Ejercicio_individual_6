@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ejercicio_individual_6</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>
